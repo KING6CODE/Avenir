@@ -45,7 +45,7 @@ export const FOUNDERS: Founder[] = [
     media: {
       placeholder: 'Portrait officiel — Alexandre Prot',
       desc: 'Portrait officiel d\'Alexandre Prot (kit média HEC / Qonto). À vérifier — l\'image trouvée est une photo de groupe LinkedIn. Remplacer par portrait officiel si possible.',
-      src: '/media/founders/prot.jpg',
+      src: `${import.meta.env.BASE_URL}media/founders/prot.jpg`,
       alt: 'Alexandre Prot — cofondateur de Qonto',
       caption: 'Alexandre Prot — cofondateur et DG de Qonto',
       sourceLabel: '⚠ Image à vérifier — image-search',
@@ -66,7 +66,7 @@ export const FOUNDERS: Founder[] = [
     media: {
       placeholder: 'Portrait officiel — Adrien Nussenbaum',
       desc: 'Portrait officiel d\'Adrien Nussenbaum (page HEC / Mirakl). À vérifier — l\'image trouvée montre deux personnes. Remplacer par portrait officiel si possible.',
-      src: '/media/founders/nussenbaum.jpg',
+      src: `${import.meta.env.BASE_URL}media/founders/nussenbaum.jpg`,
       alt: 'Adrien Nussenbaum — cofondateur de Mirakl',
       caption: 'Adrien Nussenbaum — cofondateur et U.S. CEO de Mirakl',
       sourceLabel: '⚠ Image à vérifier — image-search',
@@ -88,7 +88,7 @@ export const FOUNDERS: Founder[] = [
     media: {
       placeholder: 'Portrait officiel — Stanislas Niox-Château',
       desc: 'Portrait officiel de Stanislas Niox-Château (page HEC / Doctolib). À vérifier — l\'image trouvée semble être une photo d\'ambiance. Remplacer par portrait officiel si possible.',
-      src: '/media/founders/niox.jpg',
+      src: `${import.meta.env.BASE_URL}media/founders/niox.jpg`,
       alt: 'Stanislas Niox-Château — cofondateur de Doctolib',
       caption: 'Stanislas Niox-Château — cofondateur et PDG de Doctolib',
       sourceLabel: '⚠ Image à vérifier — image-search',

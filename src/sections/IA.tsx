@@ -259,7 +259,7 @@ export function IA() {
           <span aria-hidden="true">↳</span>
           <span>
             Source : rapport « ADA 1.3 : où on en est, et où ça peut aller », instantané du 3 novembre 2026, mesuré en local.
-            <a href="/media/ai/ada13-resultats.pdf" target="_blank" rel="noopener noreferrer" style={{ marginLeft: 8 }}>Lire le rapport complet (PDF) ↗</a>
+            <a href=`${import.meta.env.BASE_URL}media/ai/ada13-resultats.pdf` target="_blank" rel="noopener noreferrer" style={{ marginLeft: 8 }}>Lire le rapport complet (PDF) ↗</a>
           </span>
         </div>
       </div>

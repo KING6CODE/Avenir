@@ -64,7 +64,7 @@ export const SCHOOLS: School[] = [
     visual: {
       label: 'Campus Epitech',
       desc: 'Photo officielle du campus Epitech (Paris ou autre). Source : site officiel Epitech.',
-      src: '/media/schools/epitech.jpg',
+      src: `${import.meta.env.BASE_URL}media/schools/epitech.jpg`,
       alt: 'Visuel Epitech — école d\'informatique',
       caption: 'Epitech — école d\'expertise informatique',
       sourceLabel: 'Image : image-search',
@@ -100,7 +100,7 @@ export const SCHOOLS: School[] = [
     visual: {
       label: 'Albert School × Mines Paris – PSL',
       desc: 'Photo officielle d\'Albert School ou du partenariat Mines Paris – PSL. Source : site officiel.',
-      src: '/media/schools/albert.jpg',
+      src: `${import.meta.env.BASE_URL}media/schools/albert.jpg`,
       alt: 'Étudiants en formation data et business',
       caption: 'Albert School — business, data & IA',
       sourceLabel: 'Image : image-search',
@@ -136,7 +136,7 @@ export const SCHOOLS: School[] = [
     visual: {
       label: 'École 42 Paris',
       desc: 'Photo officielle du campus 42 Paris. Source : site officiel 42.',
-      src: '/media/schools/42.jpg',
+      src: `${import.meta.env.BASE_URL}media/schools/42.jpg`,
       alt: 'Salle informatique du campus 42 Paris avec iMacs',
       caption: 'École 42 Paris — pédagogie pair-à-pair',
       sourceLabel: 'Image : image-search',

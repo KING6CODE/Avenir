@@ -44,7 +44,7 @@ export const INCUBATORS: Incubator[] = [
     ],
     sourceIds: ['stationf', 'stationf-chiffres'],
     visual: {
-      src: '/media/incubators/stationf.jpg',
+      src: `${import.meta.env.BASE_URL}media/incubators/stationf.jpg`,
       alt: 'Station F — campus de startups à Paris',
       caption: 'Station F — le plus grand campus de startups au monde',
       sourceLabel: 'Image : image-search',
@@ -72,7 +72,7 @@ export const INCUBATORS: Incubator[] = [
     ],
     sourceIds: ['hec-incubateur', 'hec-launchpad', 'hec-launchpad-chiffres', 'hec-activity'],
     visual: {
-      src: '/media/schools/hec.jpg',
+      src: `${import.meta.env.BASE_URL}media/schools/hec.jpg`,
       alt: 'Campus HEC Paris — bâtiment Executive Education',
       caption: 'HEC Paris — incubateur et Startup Launchpad',
       sourceLabel: 'Image : image-search',
@@ -100,7 +100,7 @@ export const INCUBATORS: Incubator[] = [
     ],
     sourceIds: ['xup'],
     visual: {
-      src: '/media/incubators/xup.jpg',
+      src: `${import.meta.env.BASE_URL}media/incubators/xup.jpg`,
       alt: 'École polytechnique — bâtiment avec logo X',
       caption: 'X-UP — incubateur deeptech de l\'École polytechnique',
       sourceLabel: 'Image : image-search',
@@ -128,7 +128,7 @@ export const INCUBATORS: Incubator[] = [
     ],
     sourceIds: ['agoranov'],
     visual: {
-      src: '/media/incubators/agoranov.jpg',
+      src: `${import.meta.env.BASE_URL}media/incubators/agoranov.jpg`,
       alt: 'Écosystème deeptech parisien',
       caption: 'Agoranov — incubateur deeptech à Paris',
       sourceLabel: 'Image : image-search',

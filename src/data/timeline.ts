@@ -34,7 +34,7 @@ export const TIMELINE: TimelineStep[] = [
     body2: 'Ce qui me semblait être un jeu m\'a appris quelque chose de plus profond : un programme, c\'est une suite d\'instructions que l\'on peut décomposer, tester, corriger. Cette première logique algorithmique ne m\'a jamais quitté. Aujourd\'hui encore, quand j\'aborde un problème technique — y compris l\'architecture de mon modèle IA — je commence par le découper en blocs. Exactement comme avec ces blocs Scratch.',
     skill: 'Pensée algorithmique',
     media: {
-      src: '/media/childhood/scratch.jpg',
+      src: `${import.meta.env.BASE_URL}media/childhood/scratch.jpg`,
       alt: 'Éditeur Scratch avec le projet du poisson — le premier programme d\'Alistair, réalisé avec son père vers 10 ans',
       caption: 'Mon tout premier programme. Scratch, vers mes 10 ans — le poisson qui nageait, avec papa à mes côtés.',
       ratio: '16 / 9',
@@ -51,7 +51,7 @@ export const TIMELINE: TimelineStep[] = [
     body2: 'Aujourd\'hui, cette capacité me sert dans tout ce que je construis : comprendre un utilisateur, écrire une présentation, raconter un produit, donner envie. La technique seule ne suffit jamais. Il faut aussi savoir parler aux gens. C\'est cette double culture — technique et humaine — que je veux continuer à construire, et que je vous demande de ne jamais me laisser perdre.',
     skill: 'Compréhension humaine, culture littéraire, communication',
     media: {
-      src: '/media/childhood/maman-et-moi.jpg',
+      src: `${import.meta.env.BASE_URL}media/childhood/maman-et-moi.jpg`,
       alt: 'Photo d\'enfance — Alistair et sa maman',
       caption: 'Avec maman. Bien avant le code, il y avait les histoires, les mots, et l\'art de comprendre les gens.',
       ratio: '4 / 5',
@@ -72,7 +72,7 @@ export const TIMELINE: TimelineStep[] = [
       { value: '76', label: 'vidéos publiées' },
     ],
     media: {
-      src: '/media/pc-family/channel.jpg',
+      src: `${import.meta.env.BASE_URL}media/pc-family/channel.jpg`,
       alt: 'Chaîne YouTube PC Family — 1 210 abonnés, 76 vidéos',
       caption: 'PC Family — la chaîne créée avec ma sœur. Chaque vidéo était un petit pari : oser publier.',
       ratio: '16 / 9',
@@ -102,7 +102,7 @@ export const TIMELINE: TimelineStep[] = [
       { value: '2+', label: 'sites livrés à des clients réels' },
     ],
     media: {
-      src: '/media/websites/peps.png',
+      src: `${import.meta.env.BASE_URL}media/websites/peps.png`,
       alt: 'Site web PEPS réalisé par Alistair — page d\'accueil du site professionnel',
       caption: 'Un des sites livrés : PEPS, prévention des risques professionnels. Un vrai client, un vrai besoin, une vraie livraison.',
       ratio: '16 / 10',

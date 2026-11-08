@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     ],
     status: 'publié',
     media: {
-      src: '/media/pc-family/channel.jpg',
+      src: `${import.meta.env.BASE_URL}media/pc-family/channel.jpg`,
       alt: 'Chaîne YouTube PC Family — 1 210 abonnés, 76 vidéos',
       caption: 'PC Family — la chaîne créée avec ma sœur.',
       ratio: '16 / 9',
@@ -70,7 +70,7 @@ export const PROJECTS: Project[] = [
     results: ['Production régulière de contenu', 'Apprentissage par l\'explication'],
     status: 'publié',
     media: {
-      src: '/media/applications/haillo/play-store.png',
+      src: `${import.meta.env.BASE_URL}media/applications/haillo/play-store.png`,
       alt: 'Application Haillo publiée sur Google Play sous le compte développeur pccode',
       caption: 'Le compte développeur « pccode », né de la chaîne PC Code, publie aujourd\'hui mes applications.',
       ratio: '16 / 9',
@@ -88,13 +88,13 @@ export const PROJECTS: Project[] = [
     results: ['Sites livrés et utilisés par des clients', 'Premières expériences de gestion de commande'],
     status: 'publié',
     media: {
-      src: '/media/websites/peps.png',
+      src: `${import.meta.env.BASE_URL}media/websites/peps.png`,
       alt: 'Site web PEPS réalisé par Alistair',
       caption: 'PEPS — prévention des risques professionnels. Un client réel.',
       ratio: '16 / 10',
     },
     media2: {
-      src: '/media/websites/oneclickhome.png',
+      src: `${import.meta.env.BASE_URL}media/websites/oneclickhome.png`,
       alt: 'Site web OneClickHome réalisé par Alistair — page d\'accueil immobilier',
       caption: 'OneClickHome — projet immobilier. « La nouvelle façon intelligente de trouver votre bien. »',
       ratio: '16 / 10',
@@ -116,7 +116,7 @@ export const PROJECTS: Project[] = [
     ],
     status: 'clôturé',
     media: {
-      src: '/media/ads/google-ads.png',
+      src: `${import.meta.env.BASE_URL}media/ads/google-ads.png`,
       alt: 'Campagne Google Ads — 14 installations, 930 impressions, 0,99 € dépensés, 0,07 € par conversion',
       caption: 'La campagne d\'acquisition, mesurée : 14 installations pour 0,99 € — soit 0,07 € par installation.',
       ratio: '16 / 9',
@@ -143,13 +143,13 @@ export const PROJECTS: Project[] = [
     ],
     status: 'publié',
     media: {
-      src: '/media/applications/haillo/play-store.png',
+      src: `${import.meta.env.BASE_URL}media/applications/haillo/play-store.png`,
       alt: 'Haillo sur Google Play — Maîtrise l\'IA en jouant, par pccode',
       caption: 'Haillo sur Google Play — apprendre l\'IA en jouant.',
       ratio: '16 / 9',
     },
     media2: {
-      src: '/media/applications/haillo/play-console.png',
+      src: `${import.meta.env.BASE_URL}media/applications/haillo/play-console.png`,
       alt: 'Google Play Console — statistiques Haillo : 216 installations, 102 appareils actifs',
       caption: 'Les chiffres réels depuis la Play Console : 216 installations, 102 appareils actifs.',
       ratio: '16 / 9',
@@ -171,7 +171,7 @@ export const PROJECTS: Project[] = [
     ],
     status: 'en cours',
     media: {
-      src: '/media/ai/ada13-resultats.pdf',
+      src: `${import.meta.env.BASE_URL}media/ai/ada13-resultats.pdf`,
       alt: 'Rapport de résultats ADA 1.3 — benchmarks du 3 novembre 2026',
       caption: 'Le rapport complet d\'ADA 1.3 — perplexité, mémoire, tests de rappel, comparaisons avec Ornith.',
       ratio: '3 / 4',
@@ -198,13 +198,13 @@ export const PROJECTS: Project[] = [
     ],
     status: 'en cours',
     media: {
-      src: '/media/ads/google-ads.png',
+      src: `${import.meta.env.BASE_URL}media/ads/google-ads.png`,
       alt: 'Tableau de bord Google Ads — synthèse des performances',
       caption: 'Google Ads : chaque euro investi, mesuré.',
       ratio: '16 / 9',
     },
     media2: {
-      src: '/media/ads/adsense-revenus.png',
+      src: `${import.meta.env.BASE_URL}media/ads/adsense-revenus.png`,
       alt: 'Graphique AdSense — revenus estimés, total 13,63 $ US',
       caption: 'AdSense : 13,63 $ de revenus cumulés. Un premier signal, pas encore un modèle économique.',
       ratio: '16 / 10',
@@ -221,7 +221,7 @@ export const PROJECTS: Project[] = [
     results: ['Publié sur Google Play'],
     status: 'publié',
     media: {
-      src: '/media/games/block-thud/promo.png',
+      src: `${import.meta.env.BASE_URL}media/games/block-thud/promo.png`,
       alt: 'Block THUD — visuel promotionnel du jeu de blocs',
       caption: 'Block THUD — combos, stratégies, et la couronne au sommet.',
       ratio: '2 / 1',
@@ -238,7 +238,7 @@ export const PROJECTS: Project[] = [
     results: ['En développement'],
     status: 'en cours',
     media: {
-      src: '/media/games/cold-impact/gameplay.png',
+      src: `${import.meta.env.BASE_URL}media/games/cold-impact/gameplay.png`,
       alt: 'Cold Impact — capture de gameplay 3D avec missile sur sa rampe de lancement',
       caption: 'Cold Impact — mon premier jeu 3D, en développement.',
       ratio: '9 / 14',
@@ -255,7 +255,7 @@ export const PROJECTS: Project[] = [
     results: ['En développement'],
     status: 'en cours',
     media: {
-      src: '/media/games/qurono/tower-drive.png',
+      src: `${import.meta.env.BASE_URL}media/games/qurono/tower-drive.png`,
       alt: 'Tower Drive / QURONO — interface du jeu de défense holographique',
       caption: 'Tower Drive — défense holographique : ressources, protocoles, progression.',
       ratio: '9 / 14',
