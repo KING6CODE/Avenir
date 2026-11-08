@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Vite
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ⚠️ Médias privés — NE JAMAIS POUSSER
+# Les photos personnelles, documents familiaux et informations
+# privées ne doivent pas être sur le dépôt public.
+public/media/private/
+*.private.*
+.env
+.env.*
+!.env.example
