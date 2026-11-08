@@ -40,7 +40,7 @@ export function Lettre() {
 
           <Reveal>
             <p className="body-lg" style={{ fontSize: 19, lineHeight: 1.7 }}>
-              Ce que j'ai construit depuis mes 10 ans — les chaînes, les sites, l'application, les projets d'IA — n'est pas un hobby. C'est un apprentissage continu. Chaque projet m'a appris quelque chose que aucun cours ne m'aurait appris au même âge. Et chaque échec m'a appris davantage que chaque succès.
+              Ce que j'ai construit depuis mes 10 ans n'est pas un hobby. C'est un apprentissage continu. Le poisson sur Scratch avec papa. Les 76 vidéos de PC Family avec ma sœur. Les sites livrés à de vrais clients. L'application qui n'a pas percé — et qui m'a le plus appris. Les 216 installations de mes applications. Et ADA, mon modèle d'IA, dont j'ai mesuré chaque progrès avec la rigueur que vous m'avez inculquée. Chaque projet m'a appris quelque chose qu'aucun cours ne m'aurait appris au même âge. Et chaque échec m'a appris davantage que chaque succès.
             </p>
           </Reveal>
 
@@ -70,7 +70,7 @@ export function Lettre() {
 
           <Reveal>
             <p className="serif italic" style={{ fontSize: 'clamp(20px, 2.4vw, 26px)', marginTop: 24, color: 'var(--text-on-dark)' }}>
-              Je ne veux pas choisir entre étudier et entreprendre. Je veux choisir une formation qui me permette de développer les deux.
+              Papa, quand tu m'as ouvert Scratch, tu ne savais pas ce que tu lançais. Maman, quand tu me lisais des histoires, tu m'apprenais déjà à comprendre les gens. Je ne veux pas choisir entre étudier et entreprendre. Je veux choisir une formation qui me permette de développer les deux — et vous rendre fiers.
             </p>
           </Reveal>
 

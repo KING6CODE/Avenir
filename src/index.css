@@ -320,33 +320,41 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 .btn:hover svg { transform: translateX(3px); }
 
 /* ============================================================
-   Figure média (vraie image)
+   Figure média (vraie image) — grand format éditorial
    ============================================================ */
 
 .media-figure {
   position: relative;
   width: 100%;
   aspect-ratio: var(--ratio, 16 / 10);
-  border-radius: var(--r-md);
+  border-radius: var(--r-lg);
   overflow: hidden;
   margin: 0;
   background: var(--ink-800);
   border: 1px solid var(--line-dark);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.12),
+    0 8px 32px rgba(0, 0, 0, 0.22);
 }
-.section--light .media-figure { border-color: var(--line-light); }
+.section--light .media-figure {
+  border-color: var(--line-light);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.05),
+    0 12px 40px rgba(0, 0, 0, 0.10);
+}
 .media-figure img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.media-figure:hover img { transform: scale(1.03); }
+.media-figure:hover img { transform: scale(1.025); }
 .media-figure figcaption {
   position: absolute;
   left: 0; right: 0; bottom: 0;
-  padding: 28px 18px 14px;
-  background: linear-gradient(to top, rgba(0,0,0,0.78), transparent);
+  padding: 44px 24px 18px;
+  background: linear-gradient(to top, rgba(0,0,0,0.82), rgba(0,0,0,0.35) 55%, transparent);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -354,17 +362,57 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   flex-wrap: wrap;
 }
 .media-figure__caption {
-  font-size: 13px;
-  color: rgba(255,255,255,0.92);
+  font-size: 14px;
+  color: rgba(255,255,255,0.95);
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.45;
+  max-width: 52ch;
 }
 .media-figure__source {
   font-family: var(--font-mono);
   font-size: 10.5px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.6);
+  flex-shrink: 0;
+}
+
+/* Figure pleine largeur (showcase) */
+.media-figure--hero {
+  border-radius: var(--r-xl);
+  aspect-ratio: var(--ratio, 21 / 9);
+}
+.media-figure--hero figcaption { padding: 52px 28px 22px; }
+.media-figure--hero .media-figure__caption { font-size: 15px; }
+
+/* Duo d'images côte à côte */
+.media-duo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 760px) { .media-duo { grid-template-columns: 1fr; } }
+
+/* ============================================================
+   Lecteur vidéo YouTube intégré
+   ============================================================ */
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  background: #000;
+  border: 1px solid var(--line-dark);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 /* ============================================================
@@ -559,6 +607,40 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   background: var(--accent-soft);
   border: 1px solid var(--accent-line);
 }
+
+.timeline__stats {
+  display: flex;
+  gap: clamp(24px, 4vw, 48px);
+  flex-wrap: wrap;
+  margin-top: 24px;
+  padding: 20px 24px;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid var(--line-light);
+  backdrop-filter: blur(8px);
+}
+.timeline__stat-value {
+  font-family: var(--font-serif);
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1;
+  color: var(--text-on-light);
+  display: block;
+}
+.timeline__stat-label {
+  font-size: 12.5px;
+  color: var(--text-on-light-muted);
+  display: block;
+  margin-top: 6px;
+  max-width: 16ch;
+}
+
+/* Stat inline pour cartes sombres */
+.stats-row {
+  display: flex;
+  gap: clamp(20px, 3vw, 40px);
+  flex-wrap: wrap;
+}
+.stats-row .stat__value { font-size: clamp(30px, 3.5vw, 44px); }
 
 /* ============================================================
    School / comparison cards
